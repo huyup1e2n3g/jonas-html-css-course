@@ -1,8 +1,11 @@
 /* Universal Selector */
 * {
   /* border-top: 10px solid #1098ad; */
+  margin: 0;
+  padding: 0;
 }
 
+/* Page Sections */
 /* Inheritance */
 body {
   font-family: sans-serif;
@@ -10,8 +13,54 @@ body {
 
   /* The border property does not get inherited */
   border-top: 10px solid #1098ad;
+  position: relative;
 }
 
+.container {
+  width: 800px;
+  /* Center */
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+}
+
+/* nav a:link, nav p {
+  font-size: 18px;
+} */
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
+
+/* Smaller Elements */
 /* Combining Selectors */
 h1,
 h2,
@@ -27,10 +76,14 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
+/* Collapsing margins: 两个元素之间的 margin 取较大值 */
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -42,11 +95,24 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+  /* display: inline; */
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
-  line-height: 1.5;
+  margin-bottom: 10px;
+  /* display: inline; */
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* Combining Selectors */
@@ -76,16 +142,6 @@ li {
 
 .related {
   list-style: none;
-}
-
-.main-header {
-  background-color: #f7f7f7;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
 }
 
 body {
@@ -135,6 +191,60 @@ a:active {
   font-style: italic;
 }
 
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Inline element & Inline-block element & Block-level element*/
+/* anchor element is an inline element where the box model does not create any vertical space*/
+/* img is an inline-block element */
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px; */
+  /* change them to block-level elements*/
+  /* display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  /* change them to inline-block elements*/
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* Pseudo-elements */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+/* adjacent sibling selector */
+/* only the paragraphs that are immediately after the H3 have been selected */
+h3 + p::first-line {
+  /* color: red; */
+}
+
+h2 {
+  /* background-color: orange; */
+  position: relative;
+}
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
 /* Conflicts between selectors */
 /* 
 Declarations marked !important
@@ -144,7 +254,7 @@ Declarations marked !important
 > Universal selector (*)
 > Inherited values
 */
-#copyright {
+/* #copyright {
   color: red;
 }
 
@@ -157,13 +267,24 @@ Declarations marked !important
 }
 
 footer p {
-  /* color: green !important; */
-}
-
-/* nav a:link, nav p {
-  font-size: 18px;
+  color: green !important;
 } */
 
-nav {
-  font-size: 18px;
+/* Positioning Modes */
+/* 1. Normal Flow
+2. Absolute Positioning */
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  /* Absolute Positioning */
+  position: absolute;
+  /* absolute position of the viewpoint */
+  /* top: 50px;
+  left: 50px; */
+
+  /* absolute position of the page */
+  /* set the relative position of body */
+  bottom: 50px;
+  right: 50px;
 }
