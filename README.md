@@ -47,6 +47,7 @@
 
 ## 04 CSS Layouts
 
-- Floats
-- Flexbox
-- CSS Grid Fundamentals
+- The 3 Ways of Building Layouts:
+  - Floats
+  - Flexbox
+  - CSS Grid
