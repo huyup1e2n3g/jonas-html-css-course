@@ -197,7 +197,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: inline-block;
 }
 
@@ -265,49 +265,3 @@ footer p {
 nav p {
   font-size: 18px;
 } */
-
-/* Floats */
-.author-img {
-  float: left;
-  margin-bottom: 20px;
-}
-
-.author {
-  float: left;
-  padding-top: 10px;
-  margin-left: 20px;
-}
-
-h1 {
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
-.clear {
-  clear: both;
-}
-
-.clearfix::after {
-  clear: both;
-  content: "";
-  /* Clearing floats like this only really works on a block-level element, and so we should set to display property on this element. */
-  display: block;
-}
-
-/* A Simple Float Layout */
-article {
-  width: 825px;
-  float: left;
-}
-
-aside {
-  width: 300px;
-  float: right;
-}
-
-footer {
-  clear: both;
-}

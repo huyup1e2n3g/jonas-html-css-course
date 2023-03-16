@@ -135,3 +135,13 @@ nav {
   box-sizing: border-box;
 }
 ```
+
+## Flexbox
+
+Flexbox Terminology
+
+![Flexbox Terminology](/starter/04-CSS-Layouts/img-notes/Flexbox_Terminology.png)
+
+Flexbox Properties
+
+![Flexbox Properties](/starter/04-CSS-Layouts/img-notes/Flexbox_Properties.png)
