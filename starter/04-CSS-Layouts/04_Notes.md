@@ -145,3 +145,15 @@ Flexbox Terminology
 Flexbox Properties
 
 ![Flexbox Properties](/starter/04-CSS-Layouts/img-notes/Flexbox_Properties.png)
+
+## CSS Grid
+
+CSS Grid Terminology
+
+![Basic CSS Grid Terminology](/starter/04-CSS-Layouts/img-notes/Basic_CSS_Grid_Terminology.png)
+
+![More CSS Grid Terminology](/starter/04-CSS-Layouts/img-notes/More_CSS_Grid_Terminology.png)
+
+CSS Grid Properties
+
+![CSS Grid Properties](/starter/04-CSS-Layouts/img-notes/CSS_Grid_Properties.png)

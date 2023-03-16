@@ -51,3 +51,7 @@
   - Floats
   - Flexbox
   - CSS Grid
+
+✅ [CSS Layouts Notes](/starter/04-CSS-Layouts/04_Notes.md)
+
+✅ [Section 4 - Challenge Code](/starter/04-CSS-Layouts/Challenge)
