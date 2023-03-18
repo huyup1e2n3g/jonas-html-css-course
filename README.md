@@ -55,3 +55,18 @@
 ✅ [CSS Layouts Notes](/starter/04-CSS-Layouts/04_Notes.md)
 
 ✅ [Section 4 - Challenge Code](/starter/04-CSS-Layouts/Challenge)
+
+## 05 Web Design Rules and Framework
+
+- Web Design Rules #1: Typography
+- Web Design Rules #2: Colors
+- Web Design Rules #3: Images and Illustrations
+- Web Design Rules #4: Icons
+- Web Design Rules #5: Shadows
+- Web Design Rules #6: Border-radius
+- Web Design Rules #7: Whitespace
+- Web Design Rules #8: Visual Hierarchy
+- Web Design Rules #9: User Experience (UX)
+- The Website-Personalities-Framework
+
+✅ [Web Design Rules and Framework Notes](/starter/05-Design/05_Notes.md)
