@@ -70,3 +70,5 @@
 - The Website-Personalities-Framework
 
 ✅ [Web Design Rules and Framework Notes](/starter/05-Design/05_Notes.md)
+
+## 06 Component and Layout Patterns
