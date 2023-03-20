@@ -72,3 +72,12 @@
 ✅ [Web Design Rules and Framework Notes](/starter/05-Design/05_Notes.md)
 
 ## 06 Component and Layout Patterns
+
+- Accordion Component
+- Carousel Component
+- Table Component
+- Pagination Component
+- Hero Section
+- Web Application Layout
+
+✅ [Projects](/starter/06-Components)
