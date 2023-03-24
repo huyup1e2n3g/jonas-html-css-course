@@ -52,6 +52,8 @@ Color System
 3. Accent Color
 4. Tints and Shades
 
+[Tint and Shade Generator](https://maketintsandshades.com/)
+
 Contrast Ratio
 
 ![Contrast Ratio](/starter/05-Design/img-notes/Contrast_Ration.png)
@@ -65,6 +67,8 @@ Contrast Ratio
 - [DrawKit]()
 
 - [unDraw]()
+
+- [UI Faces](uifaces.co)
 
 Handling Text On Images
 
