@@ -81,3 +81,9 @@
 - Web Application Layout
 
 ✅ [Projects](/starter/06-Components)
+
+## 07 Desktop Version of Omnifood
+
+✅ [Notes](/starter/07-Omnifood-Desktop/07_Notes.md)
+
+✅ [Omnifood Desktop](/starter/07-Omnifood-Desktop)

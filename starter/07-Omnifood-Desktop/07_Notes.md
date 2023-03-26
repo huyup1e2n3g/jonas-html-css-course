@@ -32,3 +32,115 @@ html {
   /* Percentage of user's browser font-size setting */
 }
 ```
+
+## Setting Up a Reusable Grid
+
+Create a file named "general.css"
+
+```css
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+```
+
+## Other Tricks
+
+### Add inside border
+
+```css
+.btn {
+  border: 3px solid #fff;
+  /* outside border => inside */
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+```
+
+### Add elements to images
+
+```css
+.step-img-box::before {
+  content: "";
+  display: block;
+  width: 60%;
+  /* height: 60%; */
+
+  /* 60% of parent's width */
+  padding-bottom: 60%;
+
+  background-color: #fae5d3;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  z-index: -1;
+  /* elements that have higher value of the index will appear first, so will appear on top */
+}
+```
+
+### Add grayscale to images
+
+```css
+.logos img {
+  filter: brightness(0);
+  opacity: 50%;
+}
+```
+
+### Set images unflow
+
+```css
+.meal {
+  overflow: hidden;
+}
+```
+
+### Link two elements together
+
+When we click on this label, then you see it automatically selected.
+
+```html
+<!-- for & id -->
+<div>
+  <label for="full-name">Full Name</label>
+  <input
+    id="full-name"
+    type="text"
+    placeholder="John Smith"
+    name="full-name"
+    required=""
+  />
+</div>
+```
+
+### Set focus state
+
+```css
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+```
