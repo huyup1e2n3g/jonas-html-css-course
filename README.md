@@ -82,8 +82,16 @@
 
 ✅ [Projects](/starter/06-Components)
 
-## 07 Desktop Version of Omnifood
+## 07 Omnifood Project - Setup and Desktop Version
 
 ✅ [Notes](/starter/07-Omnifood-Desktop/07_Notes.md)
 
 ✅ [Omnifood Desktop](/starter/07-Omnifood-Desktop)
+
+## 08 Omnifood Project - Responsive Web Design
+
+✅ [Notes](/starter/08-Omnifood-Responsive/08_Notes.md)
+
+✅ [Omnifood Desktop](/starter/08-Omnifood-Responsive)
+
+## 09 Omnifood Project - Effects, Optimizations and Deployment
