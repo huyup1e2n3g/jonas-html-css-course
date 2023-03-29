@@ -95,3 +95,9 @@
 ✅ [Omnifood Desktop](/starter/08-Omnifood-Responsive)
 
 ## 09 Omnifood Project - Effects, Optimizations and Deployment
+
+✅ [Notes](/starter/09-Omnifood-Optimizations/09_Notes.md)
+
+✅ [Omnifood Optimizations](/starter/09-Omnifood-Optimizations)
+
+✅ Deployment to Netlify: https://omnifood-jonas-practice.netlify.app/
